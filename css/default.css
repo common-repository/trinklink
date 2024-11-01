@@ -1,0 +1,93 @@
+::placeholder {
+    /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: lightgray;
+    opacity: 1;
+    /* Firefox */
+}
+
+:-ms-input-placeholder {
+    /* Internet Explorer 10-11 */
+    color: lightgray;
+}
+
+::-ms-input-placeholder {
+    /* Microsoft Edge */
+    color: lightgray;
+}
+
+.gallery_product {
+    border: 1px solid gray;
+    background-color: #fff;
+    -moz-border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -khtml-border-radius: 20px;
+    border-radius: 20px;
+    margin: 5px 5px 0 0;
+}
+
+.item_text {
+    height: 50px;
+    overflow: hidden
+}
+
+.popover {
+    width: 200px;
+}
+
+.popover_close {
+    cursor: pointer;
+    float:right; 
+}
+
+.copy_btn,.copy_btn_promo{
+    cursor:pointer;
+    float:right;
+    margin-right: 10px;
+    color: gray;
+}
+
+.copy_btn:hover,.copy_btn_promo:hover{
+    color: black;
+}                
+
+.category {
+    padding-right: 1.5rem;
+    margin-right: 0;
+    margin-left: 0;
+    margin: 10px 0 0 5px;
+    overflow-y: auto;
+    max-height: 155px;            
+}        
+.category_badge{
+    cursor:pointer;
+    margin-right: 5px;
+    padding:5px;
+    font-size:13px;
+}
+
+.promo_row{
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    background-color: white;
+    padding: 3px 10px 3px 10px;                   
+}
+
+#submit{
+    padding:0;
+    width: 100%;
+    max-width:600px;
+}
+
+.trnk_hr{
+    border: 1px dotted lightgray;
+    width:100%;
+    max-width:600px;
+    float:left;
+}
+
+.trnk_loader{
+    margin:10px 0 10px 0;
+    text-align: center;
+    width:100%;
+    max-width:600px;
+}
